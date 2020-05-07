@@ -1,0 +1,187 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+h1, h2, h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+/* Nav-section */
+.new-nav{
+    background-color: #06623b;
+    padding:40px 13%;
+
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+
+
+
+/* Title-section */
+#title{
+    background-color:#06623b ;
+    /* text-align: center; */
+    padding: 5% 11%;
+   
+}
+
+.title-heading{
+    font-size: 3.0rem;
+    line-height: 2;
+    color: #fff;
+}
+
+.iphone{
+    width: 60%;
+    transform: rotate(15deg);
+    position: absolute;
+    z-index: 0;
+}
+
+@media (max-width:991px){
+    .iphone{
+        position: static;
+        transform: rotate(0);
+
+    }
+
+}
+
+
+.title-btn{
+    margin:2% 4% 2% 0;
+}
+
+
+
+
+
+
+
+/* features-section */
+#features{
+    background-color: #fff;
+    text-align: center;
+    padding: 12% 17%;
+    position: relative;
+    z-index: 1;
+}
+
+.features-image{
+    color:#649d66 ;
+    padding: 4% 0 6% 0;
+}
+
+.features-image:hover{
+    color: #06623b;   
+}
+
+.feature-para{
+    color:grey;
+}
+
+
+/* scroll-section */
+#scroll{
+    background-color:#649d66 ;
+    text-align: center;
+    padding: 22px 7% 150px 7%;
+    color: #fff;
+   
+    
+}
+
+.para{
+    padding: 5% 9% 4% 9%;
+    line-height:2;
+    font-size: 2.5rem;
+}
+
+.scroll-image{
+    width: 8%;
+    border-radius: 100%;
+    padding: 5px 6px;
+    
+}
+
+
+#brand-images{
+    background-color:#649d66 ;
+    text-align: center;
+    
+}
+
+.b-image{
+    width: 16%;
+    padding-bottom: 50px;
+    
+}
+
+
+/* price-section */
+#price{
+    padding: 7% 10%;
+    text-align: center;
+}
+
+.price-heading{
+    font-size:2.5rem;
+    line-height: 2;
+}
+
+.price-para{
+    color: grey;
+    padding-bottom: 20px;
+}
+
+
+/* dowmload-section */
+#download-section{
+    background-color: #06623b;
+    padding: 7% 15%;
+    line-height: 2;
+    text-align: center;
+    
+}
+
+.download-heading{
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'ubuntu-black';
+    line-height: 2;
+    padding: 0 10% 5% 0;
+}
+
+/* footer-section */
+#main-footer{
+    background-color: #fff;
+    text-align: center;
+    padding:5% 10% ;
+
+}
+
+.footer-image{
+    padding: 2% 1%;
+}
+
+.copyright{
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
